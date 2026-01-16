@@ -1,0 +1,64 @@
+# IDE & Editor
+.vscode/
+.idea/
+.fleet/
+.nova/
+.zed/
+.phpactor.json
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.backup
+.env.production
+.env.local
+.env.*.local
+
+# Dependencies
+/app/node_modules/
+/app/vendor/
+node_modules/
+vendor/
+
+# Build & Compiled
+/app/public/build/
+/app/public/hot
+/app/public/storage
+/public/build/
+/public/hot
+
+# Storage & Cache
+/app/storage/*.key
+/app/storage/pail/
+/app/storage/framework/cache/
+/app/storage/framework/sessions/
+/app/storage/framework/views/
+/app/storage/framework/testing/
+/app/storage/logs/
+/storage/*.key
+/storage/pail/
+/storage/logs/
+
+# Laravel
+.phpunit.result.cache
+.phpunit.cache/
+/auth.json
+/app/.phpunit.result.cache
+/app/.phpunit.cache/
+/app/auth.json
+
+# OS & System
+Homestead.json
+Homestead.yaml
+
+# Project specific
+docker/nginx/logs/
+*.log
+
+# Package lock files (optional - uncomment if you want to commit these)
+# package-lock.json
+# composer.lock

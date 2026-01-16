@@ -1,0 +1,49 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto eol=lf
+
+# PHP & Laravel
+*.php diff=php
+*.blade.php diff=html
+
+# Web files
+*.js text eol=lf
+*.json text eol=lf
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+
+# Shell scripts
+*.sh text eol=lf
+
+# Docker
+Dockerfile text eol=lf
+docker-compose.yml text eol=lf
+.dockerignore text eol=lf
+
+# Config files
+.editorconfig text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+
+# Export ignore
+/.github export-ignore
+/tests export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore

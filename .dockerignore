@@ -1,0 +1,53 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE & Editors
+.vscode/
+.idea/
+.fleet/
+.zed/
+.phpactor.json
+
+# Development
+node_modules/
+vendor/
+.env
+.env.*.local
+
+# Build artifacts
+/public/build/
+/public/hot
+
+# Logs & temporary files
+*.log
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/views/
+/storage/pail/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker specific
+docker/
+Dockerfile
+docker-compose.yml
+
+# Testing
+/tests/
+phpunit.xml
+.phpunit.result.cache
+.phpunit.cache/
+
+# Documentation
+README.md
+*.md
+
+# Other
+.editorconfig
+.env.example
+LICENSE
+
